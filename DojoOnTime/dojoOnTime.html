@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./dojoOnTime.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active" onclick="alert('loading weather report...')">Burbank</a></li>
+            <li><a href="#" class="active" onclick="alert('loading weather report...')" >Chicago</a></li>
+            <li><a href="#" class="active" onclick="alert('loading weather report...')">Dallas</a></li>
+        </ul>
+    </div>
+    <div class="contenedor">
+        <div class="SanJose">
+            <div>
+                <h2>San Jose</h2> 
+            </div>
+            <div class="FoC">
+                <P class="showMeIn">show temperature in:</P>
+                <select name="" id=“test-dropdown”>
+                    <option id="C" value="1">°C</option>
+                    <option id="F" value="2">°F</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col">
+                    <div class="TIT">
+                        <p class="day" >Today</p>
+                        <img class="img" src="./some_rain.png" alt="" width="200px" height="200px">
+                        <p>some rain</p>
+                    </div>
+                    <div class="HLtemp">
+                        <div>
+                            <p class="high">24°</p>
+                        </div>
+                        <div>
+                            <p class="low">18°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="TIT">
+                        <p class="day">Tomorrow</p>
+                        <img class="img" src="./some_sun.png" alt="" width="200px" height="200px">
+                        <p>some sun</p>
+                    </div>
+                    <div class="HLtemp">
+                        <div>
+                            <p class="high" >27°</p>
+                        </div>
+                        <div>
+                            <p class="low" >19°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="TIT">
+                        <p class="day" >Friday</p>
+                        <img class="img" src="./some_clouds.png" alt="" width="200px" height="200px">
+                        <p>some clouds</p>
+                    </div>
+                    <div class="HLtemp">
+                        <div>
+                            <p class="high" >21°</p>
+                        </div>
+                        <div>
+                            <p class="low" >16°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="TIT">
+                        <p class="day" >Saturday</p>
+                        <img class="img" src="./some_sun.png" alt="" width="200px" height="200px">
+                        <p>some sun</p>
+                    </div>
+                    <div class="HLtemp">
+                        <div>
+                            <p class="high" >26°</p>
+                        </div>
+                        <div>
+                            <p class="low" >21°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img id="galleta" src="./cookie.png" alt="">
+            <div class="bannerCenterText">
+                <h3>Stop!  Cookie time</h3>
+                <div class="textoBanner"><p>we use cookies (sadly not the edible ones) to personalize contents and ads to provide social media features and to analise our traffic. <a href="">Read More...</a></p>
+                </div>
+            </div>
+            <button  onclick= "gone()" id="aceptar">I accept</button>
+        </div>
+    </div>
+</body>
+<script src="./dojoOnTIme.js"></script>
+</html>

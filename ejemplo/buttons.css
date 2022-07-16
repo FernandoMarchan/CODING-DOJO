@@ -1,0 +1,24 @@
+.Select { 
+    height: 30px;
+    width: 200px;
+    color: aquamarine;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+}
+.mas {color: blue;
+    background-color: aqua;
+    text-decoration-color: blue;
+    border-color: aqua;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.createaccount {
+    color: blue;
+    box-shadow: 5px;
+    border-radius: 2px;
+    border-color: black;
+    background-color: cadetblue;
+    width: 230px;
+    height: 40px;
+}

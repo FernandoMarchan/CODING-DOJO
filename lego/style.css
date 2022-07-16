@@ -1,0 +1,222 @@
+.background {
+    width: 750px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backcuerpo {
+    margin-left: 15px;
+    width: 735px;
+    background-color: white;
+}
+
+.Encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Profile {
+    flex: 1;
+    font-size: x-large;
+}
+
+.Menu {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    font-size:small;
+}
+
+.EM1, .EM2, .EM3 {
+    margin-left: 15px;
+}
+
+.Boton {
+    flex: 2;
+    display: flex;
+    justify-content: end;
+}
+
+.Btn {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.Cuerpo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Izquierdo {
+    flex: 2;
+    margin-top: 15px;
+}
+
+.Derecho {
+    flex: 1;
+    padding: 15px;
+}
+
+.Datos {
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 0px;
+    border-color: gainsboro;
+    border-style: solid;
+}
+
+.Azul {
+    background-color: aqua;
+    height: 70px;
+}
+
+.imagenperfil {
+    border: 15px white;
+    margin-top: -35px;
+    margin-left: 15px;
+}
+
+.CID1, .CID2, .CID3, .CID4, .CID5 {
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+
+.CID1 {
+    font-size: larger;
+}
+
+.CID2 {
+    margin-bottom: 5px;
+}
+
+.CID3, .CID4 {
+    font-size: small;
+    margin-top: 0px;
+}
+
+.CID5 {
+    font-size: smaller;
+    margin-bottom: 15px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.Academico {
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 0px;
+    border-color: gainsboro;
+    border-style: solid;
+}
+
+.CIA1, .CIA2, .CIA3, .CIA4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.CIA1 {
+    background-color: rgb(20, 19, 19);
+    color: antiquewhite;
+    padding-left: 15px;
+    margin-top: 15px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.CIA2,.CIA4 {
+    font-size: small;
+    font-weight: bold;
+}
+
+.CIA3 {
+    color: rgb(63, 62, 62);
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.CIA2, .CIA3, .CIA4 {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.CIA4 {
+    margin-bottom: 15px;
+}
+
+.Solicitudes {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+display: flex;
+flex-direction: column;
+border-bottom: 1px;
+border-left: 1px;
+border-right: 1px;
+border-top: 0px;
+border-color: gainsboro;
+border-style: solid;
+margin-bottom: 15px;
+}
+
+.CDS1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    padding: 5px;
+}
+
+.numero {
+    color: white;
+    background-color: rgb(116, 109, 109);
+    border-radius: 50%;
+    border: 0px;
+}
+
+.CDS2, .CDS3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around
+}
+
+.Contactos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.CDC1, .CDC2, .CDC3, .CDC4, .CDC5 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.CDC5 {
+    margin-bottom: 10px;
+}
+
+.CDC6 {
+    margin-left: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px;
+    border-color: gainsboro;
+    border-style: solid;
+}

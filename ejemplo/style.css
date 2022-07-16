@@ -1,0 +1,18 @@
+h1 {
+    background-color: black;
+    text-align: left;
+    font-weight: bold;
+    color: aqua;
+    font-family: sans-serif;
+}
+h2 { background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    font-family: cursive
+}
+h3 {
+    background-color: cornflowerblue;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}

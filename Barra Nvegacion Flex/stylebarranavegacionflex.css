@@ -1,0 +1,40 @@
+.nav {
+    background-color:#333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links {
+    display: inline-flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+h1 {
+    color: white;
+    margin: 10px;
+}
+
+body {
+    color: antiquewhite;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    font-size: large;
+    background-color:#17a2b8;
+    box-shadow: 5px 5px;
+    height: 40px;
+}

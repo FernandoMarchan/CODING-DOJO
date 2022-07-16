@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h1>
+          <span>Just</span> <span class="amarillo_horrendo">Desserts</span>
+        </h1>
+      </div>
+      <div class="right">
+        <button class="join" onclick="gone()">join</button>
+        <button class="login">login</button>
+      </div>
+    </header>
+    <section class="navbar">
+      <div>
+        <input
+          placeholder="SEARCH"
+          id="message"
+          class="outline-blue"
+          type="text"
+        />
+        <button class="input-button" onclick="aviso()">go</button>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./cake.png" alt="" />
+        </div>
+        <p>Cake</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./cookie.png" alt="" />
+        </div>
+        <p>Cookie</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./ice-cream.png" alt="" />
+        </div>
+        <p>Ice Cream</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./pie.png" alt="" />
+        </div>
+        <p>Pie</p>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script>
+  function gone() {
+    let join = document.getElementsByClassName("join")[0];
+    join.style = "display: none;";
+  }
+
+  function aviso() {
+    let valorInput = document.getElementById("message").value;
+    alert(`you are searching for: ${valorInput}`);
+  }
+</script>
+
+<style>
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    background: #222222;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  span.amarillo_horrendo {
+    margin-left: -8px;
+  }
+
+  .amarillo_horrendo {
+    color: #ff9a00;
+  }
+
+  .login {
+    background-color: #ff9a00;
+    color: #000;
+  }
+
+  .join {
+    background-color: #085494;
+    color: #fff;
+  }
+
+  .left {
+    padding-left: 20px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    gap: 10px;
+  }
+
+  .right button {
+    cursor: pointer;
+    padding: 9px 23px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f9cb9d;
+    padding: 20px;
+  }
+
+  .outline-blue {
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid #085494;
+    height: 35px;
+    width: 276px;
+    padding-left: 13px;
+  }
+
+  .input-button {
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -6px;
+    height: 42px;
+    width: 44px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #085494;
+    font-size: 14px;
+    padding-top: 0px;
+    cursor: pointer;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+  }
+
+  .circle-background {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .circle-background img {
+    width: 122px;
+  }
+</style>

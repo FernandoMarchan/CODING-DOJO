@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nombre Completo:</h1>
+    <h2>Fernando Rafael Marchán Galíndez</h2>
+    <h1>Correo Electronico:</h1>
+    <h2>masafernando87@gmail.com</h2>
+    <h1>Fecha de Nacimiento:</h1>
+    <h2>23 - 03 - 1993</h2>
+    <h1>Edad:</h1>
+    <h2>29 años</h2>
+    <h1>Estatura:</h1>
+    <h2>165 cm</h2>
+    <h1>Alergias</h1>
+    <ul>
+        <li>Alimentos: Ninguno</li>
+        <li>Medicamentos: Ninguno</li>
+        <li>Otros Agentes Alergenos: Ninguno</li>
+    </ul> 
+    <h1>FOTO:</h1>
+    <img src="C:\Users\masaf\OneDrive\Escritorio\Foto.png" alt="foto">
+    <h1>Nombre</h1>
+        <input type="text" name="Primer_Nombre">
+    <h1>Edad</h1>
+        <input type="number" number="Edad">
+    <h1>Contraseña</h1>
+    <input type="password" name="password">
+    <h1>Fecha</h1>
+        <input type="date" name="dob">
+    <h1>Color</h1>
+        <input type="color" name="text_color">
+        <input type="radio" name="font" value="bold" id="bold">
+        <label for="bold"><strong>Negrita</strong></label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Normal</label>
+    <h1>Acepta Terminos?</h1>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Estoy de acuerdo</label>
+    <h1>Breve descripción de usted</h1>
+        <textarea name="comment" cols="20" rows="3"></textarea>
+    <h1>Sanck Preferido</h1>
+    <select name="snack">
+        <option>Almendras</option>
+        <option>Galletas con Queso</option>
+        <option>Pita con Hummus</option>
+        <option>Frutas</option>
+    </select>  
+    <form action="/process" method="post">
+        <div>
+            <label>Nombre: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">Me gustaría 
+            recibir correos con ofertas.</label>
+        </div>
+        <input type="submit" value="Sign up" >
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h1>
+          <span>Just</span> <span class="amarillo_horrendo">Desserts</span>
+        </h1>
+      </div>
+      <div class="right">
+        <button class="join" onclick="gone()">join</button>
+        <button class="login">login</button>
+      </div>
+    </header>
+    <section class="navbar">
+      <div>
+        <input
+          placeholder="SEARCH"
+          id="message"
+          class="outline-blue"
+          type="text"
+        />
+        <button class="input-button" onclick="aviso()">go</button>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./cake.png" alt="" />
+        </div>
+        <p>Cake</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./cookie.png" alt="" />
+        </div>
+        <p>Cookie</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./ice-cream.png" alt="" />
+        </div>
+        <p>Ice Cream</p>
+      </div>
+      <div class="img-container">
+        <div class="circle-background">
+          <img src="./pie.png" alt="" />
+        </div>
+        <p>Pie</p>
+      </div>
+      <div>
+    </section>
+
+    <section class="exhibit">
+      <div class="foto-container-pie">
+        <h2>Recipe Of The Day</h2>
+        <img src="orange-tart.jpg" alt="">
+      </div>
+      <div class="foto-container">
+        <h2>Recommended for you</h2>
+        <img src="macarons.jpg" alt="">
+          <span class="autor">
+            <h3 class="plate">Macarons</h3>
+            <h3 class="autor">By:EmilieW</h3>
+            <img src="heart.png" alt="" width="30px" height="30px" >
+          </span>
+        <img class="heart" src="creme-brulee.jpg" alt="">
+        <span class="autor">
+          <h3 class="plate">Creme-Brule</h3>
+          <h3 class="autor">By:MarisaG</h3>
+          <img class="heart" src="heart.png" alt="" width="30px" height="30px" >
+        </span>
+      </div>
+    </section>
+  </body>
+</html>

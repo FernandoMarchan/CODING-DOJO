@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PetShelter.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navLinks">
+            <div class="navTitle">
+                <img src="./heart-light.png" alt="WhiteHeart" />
+                <h1 class="nav-title">Pet Shelter</h1>
+            </div>
+            <div class="navButtons">
+                <div> <a href=""> Find a Pet </a></div>
+                <div> <a href=""> About </a> </div>
+                <div> <button class="goneButton" onclick="gone()">Donate</button> </div>
+            </div>
+        </div>
+        <div class="navInput">
+            <div class="textImgInput">
+                <p>I´m looking for a...</p>
+                <div class="selectElements">
+                    <img src="./paw-light.png" alt="" />
+                    <select name="" id=“test-dropdown” onchange="choice(this)">
+                        <option value="1">Any pet</option>
+                        <option value="2">Dog</option>
+                        <option value="3">Cat</option>
+                    </select>
+                </div>
+            </div>
+            <div class="textImgInput">
+                <p> In or near...</p>
+                <div class="selectElements">
+                    <img src="./pin-light.png" alt="" />
+                    <input class="location" placeholder="city or Zip code" type="text" />
+                </div>
+            </div>
+            <div>
+                <button>Find my new best friend</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="./pepper.jpg" alt=""> 
+            <div class="description">
+                <div class="namePetting"> 
+                    <h2>Pepper</h2> 
+                    <p><span id="result"></span>petting (s)</p>
+                </div>
+                <div class="paragraphButton">
+                    <p>Pepper is a aslightly shy, grey, tabby, but really loves showing her human affection</p>
+                    <button id="btn_counter" onclick="add()">Pet Pepper</button>
+                </div>
+            </div>
+        </div>
+        <div class="card grey">
+            <img src="./bruce.jpg" alt=""> 
+            <div class="description">
+                <div class="namePetting"> 
+                    <h2>Bruce</h2> 
+                    <p><span id="result2"></span> petting (s)</p>
+                </div>
+                <div class="paragraphButton">
+                    <p>Bruce is a loyas companion. He loves long walks and cold weather</p>
+                    <button  id="btn_counter2"  onclick="add2()">Pet Bruce</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./oscar.jpg" alt=""> 
+            <div class="description">
+                <div class="namePetting"> 
+                    <h2>Oscar</h2> 
+                    <p><span id="result3"></span> petting (s)</p>
+                </div>
+                <div class="paragraphButton">
+                    <p>Oscar is bright, energetic, and friendly. He is looking for a good home</p>
+                    <button  id="btn_counter3"  onclick="add3()">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./PetShelter.Js"></script>

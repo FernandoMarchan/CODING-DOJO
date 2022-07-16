@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    width: 100%;
+}
+
+.nav {
+    background-color: #15a6a1;
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+    border-bottom: 4px solid #000;
+}
+
+.navLinks, .navTitle, .navButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navLinks {
+    width: 750px;
+    align-items: center;
+}
+
+.navTitle img {
+    padding-right: 20px;
+}
+
+.navButtons {
+    gap: 25px;
+    align-items: center;
+}
+
+.navButtons div a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navButtons div button {
+    background-color: #ffffff;
+    color: #5a0a8f;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    padding: 2px 15px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.navInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 750px;
+}
+
+.navInput img {
+    width: 35px;
+}
+
+.navInput select {
+    width: 179px;
+    height: 26px;
+    }
+
+.navInput button {
+    background-color: #5a0a8f;
+    color: #ffffff;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    height: 27px;
+    padding: 0px 21px;
+    margin-bottom: 4px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.location {
+    width: 205px;
+    height: 22px;
+}
+
+.selectElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.textImgInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.textImgInput p {
+    margin: 0 0 7px 7px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 851px;
+    margin-top: -139px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #eee;
+    width: 757px;
+    padding: 15px;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.namePetting , .paragraphButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    padding-right: 15px;
+}
+
+.paragraphButton button {
+    width: 150px;
+    background-color: #15a6a1;
+    color: #ffffff ;
+    border: 4px solid #000;
+    width: 155px;
+    height: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.paragraphButton p {
+    width: 482px;
+}
+
+.card.grey {
+    background-color: rgb(185, 180, 180);
+}

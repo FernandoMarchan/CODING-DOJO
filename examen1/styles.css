@@ -1,0 +1,86 @@
+header{
+    display:flex;
+    background-color:#1e1e1e;
+    color: #ff9a00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.textotitulo {
+    position: relative;
+    top: px;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+
+}
+
+.login {
+    color: #222222;
+    background-color: #ff9a00;
+    align-items: flex-end;
+    position:relative;
+    top:25px;
+    left: 1000px;
+    width: 100px;
+    height: 30px;
+}
+
+nav {
+    margin-top: -20px;
+}
+
+.SearchBarGo {
+    position: relative;
+    
+}
+
+li{
+display: inline-block;
+}
+
+ul {
+    background-color:#f9cb9d ;
+}
+
+.imgredonda {
+    background-color: #ffffff;
+    width:100px;
+    height:100px;
+    border-radius:150px;
+    position: relative;
+    left: 450px;
+    margin: 15px;
+}
+
+.search {
+    border-radius: 30px;
+    position: relative;
+    top: -55px;
+    left: -20px;
+    width: 200px;
+    height: 30px;
+}
+
+.buttonGO {
+    border: radius 30px;
+    position: relative;
+    top: -55px;
+    left: -20px;
+    width: 30px;
+    height: 30px;
+}
+
+.textimgredonda {
+    color: black;
+    display: flex;
+    position:relative;
+    left:479px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    top:-10px;
+    font-weight:200;
+
+}
+

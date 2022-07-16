@@ -1,0 +1,83 @@
+body{
+    width: 950px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    padding: 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+}
+
+.perfilpersonal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row, .cajon, .NombreyLike {
+    display: flex;
+}
+
+.col, .col-2 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+    height: 400px;
+    width: 700px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.col {
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+.cajon {
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+}
+
+.NombreyLike {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.Nombre {
+    font-size: x-large;
+}
+
+.descripcion {
+    margin: 15px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(255, 255, 87);
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}

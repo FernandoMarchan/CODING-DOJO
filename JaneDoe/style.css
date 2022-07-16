@@ -1,0 +1,44 @@
+.container{
+    width: 650px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+    border-color: grey;
+    border-style:inset;
+}
+
+.encabezado {
+    width: 650px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    padding: 15px;
+
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    margin-top: -50px;
+}
+
+.nombre {
+    font-size: x-large;
+}
+
+.direccion {
+    font-size: larger;
+    padding: 10px;
+}
+
+.conf {
+    padding: 10px;
+}

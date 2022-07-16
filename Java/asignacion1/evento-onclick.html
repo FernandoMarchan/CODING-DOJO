@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links">
+            <textarea name="" id="" cols="25" rows="1" placeholder="Search" type="text"></textarea>
+            <li><button class="btn" type="button" id="botonOn" onclick="LogOut(this)">Login</button></li>
+        </ul>
+    </div>  
+    <div>
+        <div class="base">
+            <div class="row">
+                <div class="col-2">
+                    <div class="col2">
+                        <div class="Ninja">Ninja</div>
+                        <div class="noun">noun</div>
+                        <div>Plural: <span>ninjas</span></div>
+                        <button class="Like" id="btn_counter" onclick="alert('Ninja was liked')"> <span id="result" onclick="add(this)"></span> likes</button>
+                    </div>
+                    <div class="col3">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></div>
+                </div>
+                <div class="col-3">
+                    <div>Dojonary is defined by <span class="you">you</span></div>
+                    <button class="AddDefinition" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div> 
+        </div>
+        <div class="base">
+            <div class="row1">
+                <div class="col-2a">
+                    <div class="col2">
+                        <div class="Ninja">Ninja</div>
+                        <div class="noun">noun</div>
+                        <div>Plural: <span>ninjas</span></div>
+                        <button class="Like" class="btn1" id="btn_counter2" onclick="alert('Ninja was liked')"><span id="valor"></span>likes</button>
+                    </div>
+                    <div class="col3">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</div>
+                </div>
+                <div class="col-3a">
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
+<script src="onclickfer.js"></script>

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: #a0c4fc;
+    color: #ffffff;
+    height: 80px;
+    width: 1000px; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.contenedor {
+    width: 950px;
+    margin-left: 15px;
+}
+
+.SanJose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    border-style: solid;
+}
+
+.FoC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.showMeIn {
+    margin-right: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eeeeee;
+    flex: 1;
+    flex-direction: column;
+}
+
+.day {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 50%;
+}
+.TIT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HLtemp {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.high {
+    color:red;
+    font-size: larger;
+    font-weight: bolder;
+}
+.low {
+    color:blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #a0c4fc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoBanner {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.bannerCenterText {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 600px;
+}
+
+#aceptar {
+    margin-right: 15px;
+}
+
+#galleta {
+    margin-left: 15px;
+}
+
+h3 {
+    margin: 0px;
+}

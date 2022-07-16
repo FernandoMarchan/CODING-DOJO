@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./perfil.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn" onclick="gone()">Sign In</button></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="personal">
+                <div class="azul"></div>
+                <img src="./perfil.png" alt="" height="100px" width="100px" id="im">
+                <div class="nombre" id="nombre">Jane Doe</div>
+                <div class="ciudad"><img src="./icons/map-marker.png" alt="" height="15px" width="10px" id="icono">
+                    Seattle</div>
+                <div class="l1">Developer | Engineer | Problem Solver</div>
+                <div class="l2">Master of shadow and the Internet!</div>
+                <div onclick="changeName()" class="l3"><img src="./icons/gear.png" alt="" height="15px" width="15px" id="icono"><p>edit profile</p></div>
+            </div>
+            <div class="edu">
+                <div class="barra">Education</div>
+                <div class="d">Coding Dojo - Full Stack Bootcamp</div>
+                <div class="periodo">Dec 2019 - Mar 2020</div>
+                <div class="d">Triple black belt in Python, MERN, and C#...</div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="solicitudes">
+                <div class="barra"><span id="requestCount">2</span> Connection Requests</div>
+                <div id="request1" class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Todd E</div>
+                    <img src="./icons/accept-circle.png" alt="" height="25px" width="25px" id="iconop" class="iconop" onclick="addConection()">
+                    <img src="./icons/close-circle.png" alt="" height="25px" width="25px" id="iconon" class="iconop1" onclick="eraseRequest('request1')">
+                </div>
+                <div id="request2" class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Phil K</div>
+                    <img src="./icons/accept-circle.png" alt="" height="25px" width="25px" id="iconop" class="iconop2" onclick="addConection()">
+                    <img src="./icons/close-circle.png" alt="" height="25px" width="25px" id="iconon" class="iconop3" onclick="eraseRequest('request2')">
+                </div>
+            </div>
+            <div class="solicitudes">
+                <div class="barra"><span id="result">0</span> Your Connection</div>
+                <div class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Adrien D</div>
+                </div>
+                <div class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Anne J</div>
+                </div>
+                <div class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Alayne T</div>
+                </div>
+                <div class="alinearsol">
+                    <img src="./perfil.png" height="30px" width="30px" alt="" id="iconop">
+                    <div class="t">Arry T</div>
+                </div>
+                <div class="alinearsol1"><a href="">View More</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./perfil.js"></script>
+</html>
